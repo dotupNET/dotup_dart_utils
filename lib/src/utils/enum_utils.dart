@@ -6,9 +6,9 @@ class EnumUtils {
 //   final b = getEnumFromValue(TestEnum.values, 1);
 // }
 
-  static List<KeyValue<int>> getEnumKeyValue(List<dynamic> enumType, {bool removeFirst = false}) {
+  static List<KeyValue<String, int>> getEnumKeyValue(List<dynamic> enumType, {bool removeFirst = false}) {
     final items = enumType.map((dynamic e) {
-      return KeyValue<int>(getName(e), e.shade);
+      return KeyValue.string<int>(getName(e), e.shade);
     }).toList();
     if (removeFirst) {
       items.removeAt(0);

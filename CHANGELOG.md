@@ -19,3 +19,7 @@
 
 - New: typedef List<Map<String, dynamic>> ToMapList<T>(T item);
 - New: typedef List<T> FromMapList<T>(Map<String, dynamic> map);
+
+## 3.0.0
+
+- File names

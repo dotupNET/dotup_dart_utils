@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import '../types/TypeDefs.dart';
+import '../types/type_defs.dart';
 
 class DelayedValue<T> {
   late final Duration delay;
