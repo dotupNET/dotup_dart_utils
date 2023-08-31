@@ -1,5 +1,5 @@
 import 'package:dotup_dart_utils/dotup_dart_utils.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('date_time_extensions', () {
